@@ -60,7 +60,7 @@ def evolveGrid(grid):
     newgrid = [[cell for cell in row] for row in grid] # deep copy
     for row in range(len(grid)):
         for col in range(len(grid[row])):
-            liveN = countLiveNeighbors(grid, row, col);
+            liveN = countLiveNeighbors(grid, row, col)
             if (grid[row][col]):
                 newgrid[row][col] = liveN in [2,3]
             else:
