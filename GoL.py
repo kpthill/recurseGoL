@@ -10,26 +10,25 @@
 #   - exactly 3 live neighbors, becomes alive
 #   - otherwise stays dead
 
-# startgrid = [
-#     [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
-#     [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
-#     [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
-#     [False, False, False, False, False, False, True, False, False , False, False, False, False, ],
-#     [False, False, False, False, True, False, True, False, False  , False, False, False, False, ],
-#     [False, False, False, False, False, True, True, False, False  , False, False, False, False, ],
-#     [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
-#     [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
-#     [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
-#     [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
-#     [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
-# ]
+startgrid = [
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
+    [False, False, False, False, False, False, True, False, False , False, False, False, False, ],
+    [False, False, False, False, True, False, True, False, False  , False, False, False, False, ],
+    [False, False, False, False, False, True, True, False, False  , False, False, False, False, ],
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
+    [False, False, False, False, False, False, False, False, False, False, False, False, False, ],
+]
 
-
-# blinker = [
-#     [False, True, False],
-#     [False, True, False],
-#     [False, True, False],
-#     ]
+blinker = [
+    [False, True, False],
+    [False, True, False],
+    [False, True, False],
+    ]
 
 pulsar = [
     [False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,],
@@ -50,12 +49,6 @@ pulsar = [
     [False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,],
     [False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,],
 ]
-
-# startgrid = [
-#     [False, False, True, False, False],
-#     [True, False, True, False, False],
-#     [False, True, True, False, False],
-# ]
 
 def displayGrid(grid, generation):
     print(f"Generation {generation}")
